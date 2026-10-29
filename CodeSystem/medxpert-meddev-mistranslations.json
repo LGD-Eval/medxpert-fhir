@@ -1,0 +1,1320 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "medxpert-meddev-mistranslations",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-mistranslations",
+  "version": "1.0.0-draft",
+  "name": "MedXpertMedicalDeviceMistranslations",
+  "title": "MedXpert 医械常见误译对照",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "Common mistranslations in medical device regulatory Chinese documents. Codes are the WRONG renderings; designation use 'good-rendering' gives the canonical one. Severity: error | info.",
+  "copyright": "MIT License; source https://github.com/stevenzhao07/medxpert-skills",
+  "content": "complete",
+  "count": 36,
+  "property": [
+    {
+      "code": "severity",
+      "type": "code",
+      "description": "error = must fix; info = style/consistency"
+    }
+  ],
+  "concept": [
+    {
+      "code": "临床实验",
+      "display": "临床实验",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "临床实验"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "临床试验"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "clinical trial 是\"试验\"；\"实验\"对应 experiment"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "过程验证",
+      "display": "过程验证",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "过程验证"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "过程确认"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "process validation 中文规范译法为\"过程确认\"；\"验证\"对应 verification"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "工艺验证",
+      "display": "工艺验证",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "工艺验证"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "工艺确认"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "同上：validation → 确认"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "生物兼容性",
+      "display": "生物兼容性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "生物兼容性"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "生物相容性"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "biocompatibility 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "血液兼容性",
+      "display": "血液兼容性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "血液兼容性"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "血液相容性"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "hemocompatibility 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "生物负荷",
+      "display": "生物负荷",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "生物负荷"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "生物负载"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "bioburden 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "细胞毒",
+      "display": "细胞毒",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "细胞毒"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "细胞毒性"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "cytotoxicity 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "包装完好性",
+      "display": "包装完好性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "包装完好性"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "包装完整性"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "packaging integrity 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "再加工",
+      "display": "再加工",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "再加工"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "再处理"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "reprocessing（复用器械）规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "翻新",
+      "display": "翻新",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "翻新"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "再处理"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "reprocessing 规范译法；\"翻新\"易与 refurbish 混淆"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "风险效益分析",
+      "display": "风险效益分析",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "风险效益分析"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "获益-风险分析"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "ISO 14971 中文版术语为\"获益-风险分析\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "风险利益分析",
+      "display": "风险利益分析",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "风险利益分析"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "获益-风险分析"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "ISO 14971 中文版术语为\"获益-风险分析\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "不良事故",
+      "display": "不良事故",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "不良事故"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "不良事件"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "adverse event 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "产品回收",
+      "display": "产品回收",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "产品回收"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "产品召回"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "recall 中文规范译法为\"召回\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "上市后监管",
+      "display": "上市后监管",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "上市后监管"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "上市后监督"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "post-market surveillance 规范译法为\"上市后监督\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "现场安全修正措施",
+      "display": "现场安全修正措施",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "现场安全修正措施"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "现场安全纠正措施"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "field safety corrective action（FSCA）规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "现场安全纠正行动",
+      "display": "现场安全纠正行动",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "现场安全纠正行动"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "现场安全纠正措施"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "field safety corrective action（FSCA）规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "授权代理",
+      "display": "授权代理",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "授权代理"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "授权代表"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "authorized representative 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "符合性评估",
+      "display": "符合性评估",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "符合性评估"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "符合性评定"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "conformity assessment 规范译法为\"符合性评定\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "技术档案",
+      "display": "技术档案",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "技术档案"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "技术文件"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "technical file / technical documentation 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "生产商",
+      "display": "生产商",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "生产商"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "制造商"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "manufacturer 规范译法为\"制造商\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "经销人",
+      "display": "经销人",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "经销人"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "经销商"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "distributor 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "使用手册",
+      "display": "使用手册",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "使用手册"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "使用说明书"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "instructions for use（IFU）规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "器械历史档案",
+      "display": "器械历史档案",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "器械历史档案"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "器械历史记录"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "device history record（DHR）规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "保质期",
+      "display": "保质期",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "保质期"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "有效期"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "shelf life 在医械语境用\"有效期\"或\"货架寿命\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "可预见误用",
+      "display": "可预见误用",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "可预见误用"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "可合理预见的误用"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "ISO 14971 foreseeable misuse 规范译法"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "一次性",
+      "display": "一次性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "一次性"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "一次性使用"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "single use 完整译法为\"一次性使用\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "CE 认证",
+      "display": "CE 认证",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "CE 认证"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "CE 标志"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "CE marking 是标志（自我声明+符合性评定），不是第三方\"认证\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "FDA 510K",
+      "display": "FDA 510K",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "FDA 510K"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "510(k)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "美国上市前通知法定写法为 510(k)"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "ISO13485",
+      "display": "ISO13485",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "ISO13485"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "ISO 13485"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "标准号原样保留，机构缩写与编号间留空格"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "GB9706.1",
+      "display": "GB9706.1",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "GB9706.1"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "GB 9706.1"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "标准号原样保留，机构缩写与编号间留空格"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "国际标准化组织13485",
+      "display": "国际标准化组织13485",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "国际标准化组织13485"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "ISO 13485"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "标准号不翻译"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "欧盟医疗器械指令",
+      "display": "欧盟医疗器械指令",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "欧盟医疗器械指令"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "MDR (EU) 2017/745"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "2017/745 生效后 MDR 已取代 MDD 93/42/EEC，引用须用新法规"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "欧洲联盟医疗器械法规",
+      "display": "欧洲联盟医疗器械法规",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "欧洲联盟医疗器械法规"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "MDR (EU) 2017/745"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "法规名不翻译，用编号简称"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "error"
+        }
+      ]
+    },
+    {
+      "code": "必须",
+      "display": "必须",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "必须"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "应"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "正式文档强制要求用「应」（shall）；「必须」为口语化强调"
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "info"
+        }
+      ]
+    },
+    {
+      "code": "基本要求",
+      "display": "基本要求",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "基本要求"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "good-rendering"
+          },
+          "value": "通用安全与性能要求"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "reason"
+          },
+          "value": "GSPR 自 MDR (EU) 2017/745 生效后取代 MDD 的\"基本要求\"；引用旧法规文本时才用\"基本要求\""
+        }
+      ],
+      "property": [
+        {
+          "code": "severity",
+          "valueCode": "info"
+        }
+      ]
+    }
+  ]
+}
