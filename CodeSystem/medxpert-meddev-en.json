@@ -1,0 +1,5120 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "medxpert-meddev-en",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-en",
+  "version": "1.0.0-draft",
+  "name": "MedXpertMedicalDeviceTerminologyEN",
+  "title": "MedXpert 医械法规术语库（英文术语）",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "Medical device regulatory bilingual terminology (EN codes). Codes are English terms; zh display/designation carry the canonical Chinese rendering. Kinds: keep-as-is / term / warning-level / modal-verb.",
+  "copyright": "MIT License; source https://github.com/stevenzhao07/medxpert-skills",
+  "content": "complete",
+  "count": 164,
+  "property": [
+    {
+      "code": "kind",
+      "type": "code",
+      "description": "Term category: keep-as-is | term | warning-level | modal-verb"
+    }
+  ],
+  "concept": [
+    {
+      "code": "ISO 13485",
+      "display": "质量管理体系标准",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "质量管理体系标准"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "ISO 13485"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "ISO 14971",
+      "display": "风险管理标准",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "风险管理标准"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "ISO 14971"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "ISO 10993 / GB/T 16886",
+      "display": "生物相容性标准",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "生物相容性标准"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "ISO 10993 / GB/T 16886"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "中文文档用 GB/T 16886，英文文档用 ISO 10993 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "IEC 62304",
+      "display": "软件生命周期",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "软件生命周期"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "IEC 62304"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "IEC 62366",
+      "display": "可用性工程",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "可用性工程"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "IEC 62366"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "IEC 60601",
+      "display": "电气安全",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "电气安全"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "IEC 60601"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "ISO 11607",
+      "display": "无菌屏障",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "无菌屏障"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "ISO 11607"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "510(k) / Premarket Notification",
+      "display": "美国上市前通知",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "美国上市前通知"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "510(k) / Premarket Notification"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "简称 510(k) 不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "PMA (Premarket Approval)",
+      "display": "美国上市前批准",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "美国上市前批准"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "PMA (Premarket Approval)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "De Novo",
+      "display": "美国新型分类",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "美国新型分类"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "De Novo"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "EU MDR (2017/745)",
+      "display": "欧盟医疗器械法规",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "欧盟医疗器械法规"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "EU MDR (2017/745)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "EU IVDR (2017/746)",
+      "display": "欧盟体外诊断法规",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "欧盟体外诊断法规"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "EU IVDR (2017/746)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "EUDAMED",
+      "display": "欧盟医疗器械数据库",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "欧盟医疗器械数据库"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "EUDAMED"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "Notified Body",
+      "display": "欧盟公告机构",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "欧盟公告机构"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Notified Body"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译（中文文档可写\"公告机构\"） ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "GUDID",
+      "display": "美国全球唯一标识数据库",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "美国全球唯一标识数据库"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "GUDID"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "UDI (Unique Device Identification)",
+      "display": "医疗器械唯一标识",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "医疗器械唯一标识"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "UDI (Unique Device Identification)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "首现写全称+缩写 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "STED (Summary Technical Documentation)",
+      "display": "技术文档摘要",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "技术文档摘要"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "STED (Summary Technical Documentation)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "eSTAR / eRPS",
+      "display": "电子注册提交",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "电子注册提交"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "eSTAR / eRPS"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "MAH (Marketing Authorization Holder)",
+      "display": "注册人制度/委托生产",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "注册人制度/委托生产"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "MAH (Marketing Authorization Holder)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "不译 ｜ 不翻译，原样保留"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "keep-as-is"
+        }
+      ]
+    },
+    {
+      "code": "intended use",
+      "display": "预期用途",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "预期用途"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "intended use"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "核心术语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "indications for use",
+      "display": "适用症/适用范围",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "适用症/适用范围"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "indications for use"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "contraindications",
+      "display": "禁忌症",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "禁忌症"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "contraindications"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "警示用语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "warnings",
+      "display": "警告",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "警告"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "warnings"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "警示用语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "precautions",
+      "display": "注意事项",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "注意事项"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "precautions"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "adverse event",
+      "display": "不良事件",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "不良事件"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "adverse event"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "serious adverse event",
+      "display": "严重不良事件",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "严重不良事件"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "serious adverse event"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "post-market surveillance (PMS)",
+      "display": "上市后监督",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "上市后监督"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "post-market surveillance (PMS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "field safety corrective action (FSCA)",
+      "display": "现场安全纠正措施",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "现场安全纠正措施"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "field safety corrective action (FSCA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "recall",
+      "display": "召回",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "召回"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "recall"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "clinical evaluation",
+      "display": "临床评价",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "临床评价"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "clinical evaluation"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "注意：clinical trial=临床试验"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "clinical investigation",
+      "display": "临床调查/临床试验",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "临床调查/临床试验"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "clinical investigation"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "biocompatibility",
+      "display": "生物相容性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "生物相容性"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "biocompatibility"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "chemical characterization",
+      "display": "化学表征",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "化学表征"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "chemical characterization"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "sterility",
+      "display": "无菌",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "无菌"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "sterility"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "sterilization",
+      "display": "灭菌",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "灭菌"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "sterilization"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "shelf life",
+      "display": "货架寿命/有效期",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "货架寿命/有效期"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "shelf life"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "packaging integrity",
+      "display": "包装完整性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "包装完整性"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "packaging integrity"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "single use / disposable",
+      "display": "一次性使用",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "一次性使用"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "single use / disposable"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "reusable",
+      "display": "可重复使用",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "可重复使用"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "reusable"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "reprocessing",
+      "display": "再处理",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "再处理"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "reprocessing"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "clean / sterile",
+      "display": "清洁/无菌",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "清洁/无菌"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "clean / sterile"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "勿混淆"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "labeling",
+      "display": "标签（广义，含说明书）",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "标签（广义，含说明书）"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "labeling"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "label",
+      "display": "标签（狭义）",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "标签（狭义）"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "label"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "instructions for use (IFU)",
+      "display": "使用说明书",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "使用说明书"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "instructions for use (IFU)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "user manual",
+      "display": "用户手册",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "用户手册"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "user manual"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "risk management",
+      "display": "风险管理",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "风险管理"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "risk management"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "risk analysis",
+      "display": "风险分析",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "风险分析"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "risk analysis"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "risk evaluation",
+      "display": "风险评价",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "风险评价"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "risk evaluation"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "risk control",
+      "display": "风险控制",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "风险控制"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "risk control"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "residual risk",
+      "display": "剩余风险",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "剩余风险"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "residual risk"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "hazard",
+      "display": "危害（源）",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "危害（源）"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "hazard"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "hazard vs harm 危害/伤害 区别"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "harm",
+      "display": "伤害",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "伤害"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "harm"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "design input / output",
+      "display": "设计输入/输出",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "设计输入/输出"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "design input / output"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "design verification",
+      "display": "设计验证",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "设计验证"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "design verification"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "design validation",
+      "display": "设计确认",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "设计确认"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "design validation"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "验证 vs 确认勿混"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "design transfer",
+      "display": "设计转移",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "设计转移"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "design transfer"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "design change",
+      "display": "设计变更",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "设计变更"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "design change"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "corrective action",
+      "display": "纠正措施",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "纠正措施"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "corrective action"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "preventive action",
+      "display": "预防措施",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "预防措施"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "preventive action"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "nonconformity",
+      "display": "不合格",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "不合格"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "nonconformity"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "process validation",
+      "display": "过程确认",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "过程确认"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "process validation"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "installation qualification (IQ)",
+      "display": "安装确认",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "安装确认"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "installation qualification (IQ)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "operational qualification (OQ)",
+      "display": "运行确认",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "运行确认"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "operational qualification (OQ)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "performance qualification (PQ)",
+      "display": "性能确认",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "性能确认"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "performance qualification (PQ)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "validation",
+      "display": "确认/验证",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "确认/验证"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "validation"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "按语境：process validation=过程确认，software validation=软件验证"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "regulatory affairs (RA)",
+      "display": "法规事务",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "法规事务"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "regulatory affairs (RA)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "registration",
+      "display": "注册",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "注册"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "registration"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "marketing authorization",
+      "display": "上市许可",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "上市许可"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "marketing authorization"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "conformity assessment",
+      "display": "符合性评定",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "符合性评定"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "conformity assessment"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "declaration of conformity",
+      "display": "符合性声明",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "符合性声明"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "declaration of conformity"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "authorized representative",
+      "display": "授权代表/欧盟代表",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "授权代表/欧盟代表"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "authorized representative"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "importer",
+      "display": "进口商",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "进口商"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "importer"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "distributor",
+      "display": "经销商/分销商",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "经销商/分销商"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "distributor"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "manufacturer",
+      "display": "制造商",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "制造商"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "manufacturer"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "quality management system (QMS)",
+      "display": "质量管理体系",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "质量管理体系"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "quality management system (QMS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "quality manual",
+      "display": "质量手册",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "质量手册"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "quality manual"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "standard operating procedure (SOP)",
+      "display": "标准操作规程",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "标准操作规程"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "standard operating procedure (SOP)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "lot number / batch number",
+      "display": "批号",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "批号"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "lot number / batch number"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "serial number",
+      "display": "序列号",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "序列号"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "serial number"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "manufacturing date",
+      "display": "生产日期",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "生产日期"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "manufacturing date"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "expiry date / expiration date",
+      "display": "失效日期/有效期至",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "失效日期/有效期至"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "expiry date / expiration date"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "storage conditions",
+      "display": "储存条件",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "储存条件"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "storage conditions"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "temperature range",
+      "display": "温度范围",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "温度范围"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "temperature range"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "relative humidity",
+      "display": "相对湿度",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "相对湿度"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "relative humidity"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "ingress protection (IP)",
+      "display": "防护等级（IP 等级）",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "防护等级（IP 等级）"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "ingress protection (IP)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "IP67 不译"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "electromagnetic compatibility (EMC)",
+      "display": "电磁兼容性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "电磁兼容性"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "electromagnetic compatibility (EMC)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "software as a medical device (SaMD)",
+      "display": "医疗器械软件（独立软件）",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "医疗器械软件（独立软件）"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "software as a medical device (SaMD)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "usability engineering",
+      "display": "可用性工程",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "可用性工程"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "usability engineering"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "human factors",
+      "display": "人因工程",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "人因工程"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "human factors"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "device master record (DMR)",
+      "display": "器械主记录",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "器械主记录"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "device master record (DMR)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "device history record (DHR)",
+      "display": "器械历史记录",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "器械历史记录"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "device history record (DHR)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "complaint handling",
+      "display": "投诉处理",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "投诉处理"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "complaint handling"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "vigilance",
+      "display": "警戒（欧盟术语）",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "警戒（欧盟术语）"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "vigilance"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "incident",
+      "display": "事件",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "事件"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "incident"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "near miss",
+      "display": "险肇事件",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "险肇事件"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "near miss"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "tender",
+      "display": "招标",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "招标"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "tender"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "CE marking",
+      "display": "CE 标志",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "CE 标志"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "CE marking"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "CE Marking 不译"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "declaration of conformity (DoC)",
+      "display": "符合性声明",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "符合性声明"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "declaration of conformity (DoC)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "technical file / technical documentation",
+      "display": "技术文件/技术文档",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "技术文件/技术文档"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "technical file / technical documentation"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "essential requirements",
+      "display": "基本要求（MDR 术语）",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "基本要求（MDR 术语）"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "essential requirements"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "general safety and performance requirements (GSPR)",
+      "display": "通用安全与性能要求",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "通用安全与性能要求"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "general safety and performance requirements (GSPR)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "MDR 2021 后术语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "classification",
+      "display": "分类",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "分类"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "classification"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "product code",
+      "display": "产品代码",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "产品代码"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "product code"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "regulatory pathway",
+      "display": "注册路径",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "注册路径"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "regulatory pathway"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "breakthrough device",
+      "display": "突破性器械",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "突破性器械"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "breakthrough device"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "FDA 术语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "expedited review",
+      "display": "优先审评",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "优先审评"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "expedited review"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "innovative medical device",
+      "display": "创新医疗器械",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "创新医疗器械"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "innovative medical device"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "中国术语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "same-type comparison",
+      "display": "同品种比对",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "同品种比对"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "same-type comparison"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "中国临床评价路径"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "exemption from clinical trials",
+      "display": "豁免临床",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "豁免临床"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "exemption from clinical trials"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "clinical trial exemption",
+      "display": "临床豁免",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "临床豁免"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "clinical trial exemption"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "marketing authorization holder (MAH)",
+      "display": "注册人",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "注册人"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "marketing authorization holder (MAH)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "中国注册人制度"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "entrusted production",
+      "display": "委托生产",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "委托生产"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "entrusted production"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "quality agreement",
+      "display": "质量协议",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "质量协议"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "quality agreement"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "supplier",
+      "display": "供应商",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "供应商"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "supplier"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "material certificate",
+      "display": "材质证明",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "材质证明"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "material certificate"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "certificate of conformance",
+      "display": "合格证书",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "合格证书"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "certificate of conformance"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "free sale certificate / export certificate",
+      "display": "出口销售证明",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "出口销售证明"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "free sale certificate / export certificate"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "certificate of free sale (CFS)",
+      "display": "自由销售证书",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "自由销售证书"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "certificate of free sale (CFS)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "notified body opinion",
+      "display": "公告机构意见",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "公告机构意见"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "notified body opinion"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "annual report",
+      "display": "年度报告",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "年度报告"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "annual report"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "periodic safety update report (PSUR)",
+      "display": "定期安全更新报告",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "定期安全更新报告"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "periodic safety update report (PSUR)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "MDR 术语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "summary of safety and clinical performance (SSCP)",
+      "display": "安全与临床性能摘要",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "安全与临床性能摘要"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "summary of safety and clinical performance (SSCP)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "MDR 术语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "hazardous situation",
+      "display": "危险情况",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "危险情况"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "hazardous situation"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "foreseeable misuse",
+      "display": "可合理预见的误用",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "可合理预见的误用"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "foreseeable misuse"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "ISO 14971 术语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "risk analysis / evaluation / control",
+      "display": "风险分析 / 评价 / 控制",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "风险分析 / 评价 / 控制"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "risk analysis / evaluation / control"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "risk-benefit analysis",
+      "display": "获益-风险分析",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "获益-风险分析"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "risk-benefit analysis"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "cleanroom",
+      "display": "洁净室",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "洁净室"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "cleanroom"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "sterile barrier",
+      "display": "无菌屏障",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "无菌屏障"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "sterile barrier"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "bioburden",
+      "display": "生物负载",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "生物负载"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "bioburden"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "EO sterilization",
+      "display": "环氧乙烷灭菌",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "环氧乙烷灭菌"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "EO sterilization"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "ISO 11135 / GB 18279"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "irradiation sterilization",
+      "display": "辐照灭菌",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "辐照灭菌"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "irradiation sterilization"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "ISO 11137 / GB 18280"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "moist heat sterilization",
+      "display": "湿热灭菌",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "湿热灭菌"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "moist heat sterilization"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "ISO 17665 / GB 18278"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "sterility assurance level (SAL)",
+      "display": "无菌保证水平",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "无菌保证水平"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "sterility assurance level (SAL)"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "SAL ≤ 10⁻⁶ 不译"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "parametric release",
+      "display": "参数发布",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "参数发布"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "parametric release"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "overkill method",
+      "display": "过度杀灭法",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "过度杀灭法"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "overkill method"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "biological indicator (BI)",
+      "display": "生物指示剂",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "生物指示剂"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "biological indicator (BI)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "biological evaluation",
+      "display": "生物学评价",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "生物学评价"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "biological evaluation"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "cytotoxicity",
+      "display": "细胞毒性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "细胞毒性"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "cytotoxicity"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "sensitization",
+      "display": "致敏",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "致敏"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "sensitization"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "hemocompatibility",
+      "display": "血液相容性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "血液相容性"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "hemocompatibility"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "genotoxicity",
+      "display": "遗传毒性",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "遗传毒性"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "genotoxicity"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "extractables",
+      "display": "可沥滤物",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "可沥滤物"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "extractables"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "ISO 10993-17/18"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "software lifecycle",
+      "display": "软件生命周期",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "软件生命周期"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "software lifecycle"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "IEC 62304"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "use error",
+      "display": "使用错误",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "使用错误"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "use error"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "IEC 62366 术语"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "formative / summative evaluation",
+      "display": "形成性/总结性评估",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "形成性/总结性评估"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "formative / summative evaluation"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "人因评估两阶段"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "SOUP",
+      "display": "第三方软件",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "第三方软件"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "SOUP"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "保留缩写"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "SBOM",
+      "display": "软件物料清单",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "软件物料清单"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "SBOM"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "网络安全"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "cybersecurity",
+      "display": "网络安全",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "网络安全"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "cybersecurity"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "MDCG 2019-16"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "post-market clinical follow-up (PMCF)",
+      "display": "上市后临床跟踪",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "上市后临床跟踪"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "post-market clinical follow-up (PMCF)"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "trend report",
+      "display": "趋势报告",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "趋势报告"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "trend report"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "MDR Art.88"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "operation license / filing",
+      "display": "经营许可 / 备案",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "经营许可 / 备案"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "operation license / filing"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "中国 54 号令"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "centralized procurement",
+      "display": "集采",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "集采"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "centralized procurement"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "医院采购语境"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "change registration",
+      "display": "变更注册",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "变更注册"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "change registration"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "中国 47 号令"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "renewal of registration",
+      "display": "延续注册",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "延续注册"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "renewal of registration"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "届满前 6 个月"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "term"
+        }
+      ]
+    },
+    {
+      "code": "DANGER",
+      "display": "危险",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "危险"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "DANGER"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "最高 ｜ 警示强度不可弱化"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "warning-level"
+        }
+      ]
+    },
+    {
+      "code": "WARNING",
+      "display": "警告",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "警告"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "WARNING"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "高 ｜ 警示强度不可弱化"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "warning-level"
+        }
+      ]
+    },
+    {
+      "code": "CAUTION",
+      "display": "注意/小心",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "注意/小心"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "CAUTION"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "中 ｜ 警示强度不可弱化"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "warning-level"
+        }
+      ]
+    },
+    {
+      "code": "NOTE",
+      "display": "提示/说明",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "提示/说明"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "NOTE"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "低 ｜ 警示强度不可弱化"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "warning-level"
+        }
+      ]
+    },
+    {
+      "code": "CONTRAINDICATION",
+      "display": "禁忌",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "禁忌"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "CONTRAINDICATION"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "专项 ｜ 警示强度不可弱化"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "warning-level"
+        }
+      ]
+    },
+    {
+      "code": "shall",
+      "display": "应",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "应"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "shall"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "强制要求（规范用语）"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "modal-verb"
+        }
+      ]
+    },
+    {
+      "code": "should",
+      "display": "宜/应当",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "宜/应当"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "should"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "建议（规范用语）"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "modal-verb"
+        }
+      ]
+    },
+    {
+      "code": "may",
+      "display": "可以",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "可以"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "may"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "允许"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "modal-verb"
+        }
+      ]
+    },
+    {
+      "code": "must",
+      "display": "必须",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "必须"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "must"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "强调（口语化，正式文档用 shall）"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "modal-verb"
+        }
+      ]
+    },
+    {
+      "code": "shall not / must not",
+      "display": "不得",
+      "designation": [
+        {
+          "language": "zh",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "不得"
+        },
+        {
+          "language": "en",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "shall not / must not"
+        },
+        {
+          "language": "zh",
+          "use": {
+            "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+            "code": "note"
+          },
+          "value": "禁止"
+        }
+      ],
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "modal-verb"
+        }
+      ]
+    }
+  ]
+}
