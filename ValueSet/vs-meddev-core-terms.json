@@ -1,0 +1,561 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-meddev-core-terms",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/ValueSet/vs-meddev-core-terms",
+  "version": "1.0.0-draft",
+  "name": "MedXpertTerm",
+  "title": "医械法规核心术语",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "MedXpert terminology subset: kind = term (135 concepts).",
+  "compose": {
+    "include": [
+      {
+        "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-en",
+        "concept": [
+          {
+            "code": "intended use",
+            "display": "预期用途"
+          },
+          {
+            "code": "indications for use",
+            "display": "适用症/适用范围"
+          },
+          {
+            "code": "contraindications",
+            "display": "禁忌症"
+          },
+          {
+            "code": "warnings",
+            "display": "警告"
+          },
+          {
+            "code": "precautions",
+            "display": "注意事项"
+          },
+          {
+            "code": "adverse event",
+            "display": "不良事件"
+          },
+          {
+            "code": "serious adverse event",
+            "display": "严重不良事件"
+          },
+          {
+            "code": "post-market surveillance (PMS)",
+            "display": "上市后监督"
+          },
+          {
+            "code": "field safety corrective action (FSCA)",
+            "display": "现场安全纠正措施"
+          },
+          {
+            "code": "recall",
+            "display": "召回"
+          },
+          {
+            "code": "clinical evaluation",
+            "display": "临床评价"
+          },
+          {
+            "code": "clinical investigation",
+            "display": "临床调查/临床试验"
+          },
+          {
+            "code": "biocompatibility",
+            "display": "生物相容性"
+          },
+          {
+            "code": "chemical characterization",
+            "display": "化学表征"
+          },
+          {
+            "code": "sterility",
+            "display": "无菌"
+          },
+          {
+            "code": "sterilization",
+            "display": "灭菌"
+          },
+          {
+            "code": "shelf life",
+            "display": "货架寿命/有效期"
+          },
+          {
+            "code": "packaging integrity",
+            "display": "包装完整性"
+          },
+          {
+            "code": "single use / disposable",
+            "display": "一次性使用"
+          },
+          {
+            "code": "reusable",
+            "display": "可重复使用"
+          },
+          {
+            "code": "reprocessing",
+            "display": "再处理"
+          },
+          {
+            "code": "clean / sterile",
+            "display": "清洁/无菌"
+          },
+          {
+            "code": "labeling",
+            "display": "标签（广义，含说明书）"
+          },
+          {
+            "code": "label",
+            "display": "标签（狭义）"
+          },
+          {
+            "code": "instructions for use (IFU)",
+            "display": "使用说明书"
+          },
+          {
+            "code": "user manual",
+            "display": "用户手册"
+          },
+          {
+            "code": "risk management",
+            "display": "风险管理"
+          },
+          {
+            "code": "risk analysis",
+            "display": "风险分析"
+          },
+          {
+            "code": "risk evaluation",
+            "display": "风险评价"
+          },
+          {
+            "code": "risk control",
+            "display": "风险控制"
+          },
+          {
+            "code": "residual risk",
+            "display": "剩余风险"
+          },
+          {
+            "code": "hazard",
+            "display": "危害（源）"
+          },
+          {
+            "code": "harm",
+            "display": "伤害"
+          },
+          {
+            "code": "design input / output",
+            "display": "设计输入/输出"
+          },
+          {
+            "code": "design verification",
+            "display": "设计验证"
+          },
+          {
+            "code": "design validation",
+            "display": "设计确认"
+          },
+          {
+            "code": "design transfer",
+            "display": "设计转移"
+          },
+          {
+            "code": "design change",
+            "display": "设计变更"
+          },
+          {
+            "code": "corrective action",
+            "display": "纠正措施"
+          },
+          {
+            "code": "preventive action",
+            "display": "预防措施"
+          },
+          {
+            "code": "nonconformity",
+            "display": "不合格"
+          },
+          {
+            "code": "process validation",
+            "display": "过程确认"
+          },
+          {
+            "code": "installation qualification (IQ)",
+            "display": "安装确认"
+          },
+          {
+            "code": "operational qualification (OQ)",
+            "display": "运行确认"
+          },
+          {
+            "code": "performance qualification (PQ)",
+            "display": "性能确认"
+          },
+          {
+            "code": "validation",
+            "display": "确认/验证"
+          },
+          {
+            "code": "regulatory affairs (RA)",
+            "display": "法规事务"
+          },
+          {
+            "code": "registration",
+            "display": "注册"
+          },
+          {
+            "code": "marketing authorization",
+            "display": "上市许可"
+          },
+          {
+            "code": "conformity assessment",
+            "display": "符合性评定"
+          },
+          {
+            "code": "declaration of conformity",
+            "display": "符合性声明"
+          },
+          {
+            "code": "authorized representative",
+            "display": "授权代表/欧盟代表"
+          },
+          {
+            "code": "importer",
+            "display": "进口商"
+          },
+          {
+            "code": "distributor",
+            "display": "经销商/分销商"
+          },
+          {
+            "code": "manufacturer",
+            "display": "制造商"
+          },
+          {
+            "code": "quality management system (QMS)",
+            "display": "质量管理体系"
+          },
+          {
+            "code": "quality manual",
+            "display": "质量手册"
+          },
+          {
+            "code": "standard operating procedure (SOP)",
+            "display": "标准操作规程"
+          },
+          {
+            "code": "lot number / batch number",
+            "display": "批号"
+          },
+          {
+            "code": "serial number",
+            "display": "序列号"
+          },
+          {
+            "code": "manufacturing date",
+            "display": "生产日期"
+          },
+          {
+            "code": "expiry date / expiration date",
+            "display": "失效日期/有效期至"
+          },
+          {
+            "code": "storage conditions",
+            "display": "储存条件"
+          },
+          {
+            "code": "temperature range",
+            "display": "温度范围"
+          },
+          {
+            "code": "relative humidity",
+            "display": "相对湿度"
+          },
+          {
+            "code": "ingress protection (IP)",
+            "display": "防护等级（IP 等级）"
+          },
+          {
+            "code": "electromagnetic compatibility (EMC)",
+            "display": "电磁兼容性"
+          },
+          {
+            "code": "software as a medical device (SaMD)",
+            "display": "医疗器械软件（独立软件）"
+          },
+          {
+            "code": "usability engineering",
+            "display": "可用性工程"
+          },
+          {
+            "code": "human factors",
+            "display": "人因工程"
+          },
+          {
+            "code": "device master record (DMR)",
+            "display": "器械主记录"
+          },
+          {
+            "code": "device history record (DHR)",
+            "display": "器械历史记录"
+          },
+          {
+            "code": "complaint handling",
+            "display": "投诉处理"
+          },
+          {
+            "code": "vigilance",
+            "display": "警戒（欧盟术语）"
+          },
+          {
+            "code": "incident",
+            "display": "事件"
+          },
+          {
+            "code": "near miss",
+            "display": "险肇事件"
+          },
+          {
+            "code": "tender",
+            "display": "招标"
+          },
+          {
+            "code": "CE marking",
+            "display": "CE 标志"
+          },
+          {
+            "code": "declaration of conformity (DoC)",
+            "display": "符合性声明"
+          },
+          {
+            "code": "technical file / technical documentation",
+            "display": "技术文件/技术文档"
+          },
+          {
+            "code": "essential requirements",
+            "display": "基本要求（MDR 术语）"
+          },
+          {
+            "code": "general safety and performance requirements (GSPR)",
+            "display": "通用安全与性能要求"
+          },
+          {
+            "code": "classification",
+            "display": "分类"
+          },
+          {
+            "code": "product code",
+            "display": "产品代码"
+          },
+          {
+            "code": "regulatory pathway",
+            "display": "注册路径"
+          },
+          {
+            "code": "breakthrough device",
+            "display": "突破性器械"
+          },
+          {
+            "code": "expedited review",
+            "display": "优先审评"
+          },
+          {
+            "code": "innovative medical device",
+            "display": "创新医疗器械"
+          },
+          {
+            "code": "same-type comparison",
+            "display": "同品种比对"
+          },
+          {
+            "code": "exemption from clinical trials",
+            "display": "豁免临床"
+          },
+          {
+            "code": "clinical trial exemption",
+            "display": "临床豁免"
+          },
+          {
+            "code": "marketing authorization holder (MAH)",
+            "display": "注册人"
+          },
+          {
+            "code": "entrusted production",
+            "display": "委托生产"
+          },
+          {
+            "code": "quality agreement",
+            "display": "质量协议"
+          },
+          {
+            "code": "supplier",
+            "display": "供应商"
+          },
+          {
+            "code": "material certificate",
+            "display": "材质证明"
+          },
+          {
+            "code": "certificate of conformance",
+            "display": "合格证书"
+          },
+          {
+            "code": "free sale certificate / export certificate",
+            "display": "出口销售证明"
+          },
+          {
+            "code": "certificate of free sale (CFS)",
+            "display": "自由销售证书"
+          },
+          {
+            "code": "notified body opinion",
+            "display": "公告机构意见"
+          },
+          {
+            "code": "annual report",
+            "display": "年度报告"
+          },
+          {
+            "code": "periodic safety update report (PSUR)",
+            "display": "定期安全更新报告"
+          },
+          {
+            "code": "summary of safety and clinical performance (SSCP)",
+            "display": "安全与临床性能摘要"
+          },
+          {
+            "code": "hazardous situation",
+            "display": "危险情况"
+          },
+          {
+            "code": "foreseeable misuse",
+            "display": "可合理预见的误用"
+          },
+          {
+            "code": "risk analysis / evaluation / control",
+            "display": "风险分析 / 评价 / 控制"
+          },
+          {
+            "code": "risk-benefit analysis",
+            "display": "获益-风险分析"
+          },
+          {
+            "code": "cleanroom",
+            "display": "洁净室"
+          },
+          {
+            "code": "sterile barrier",
+            "display": "无菌屏障"
+          },
+          {
+            "code": "bioburden",
+            "display": "生物负载"
+          },
+          {
+            "code": "EO sterilization",
+            "display": "环氧乙烷灭菌"
+          },
+          {
+            "code": "irradiation sterilization",
+            "display": "辐照灭菌"
+          },
+          {
+            "code": "moist heat sterilization",
+            "display": "湿热灭菌"
+          },
+          {
+            "code": "sterility assurance level (SAL)",
+            "display": "无菌保证水平"
+          },
+          {
+            "code": "parametric release",
+            "display": "参数发布"
+          },
+          {
+            "code": "overkill method",
+            "display": "过度杀灭法"
+          },
+          {
+            "code": "biological indicator (BI)",
+            "display": "生物指示剂"
+          },
+          {
+            "code": "biological evaluation",
+            "display": "生物学评价"
+          },
+          {
+            "code": "cytotoxicity",
+            "display": "细胞毒性"
+          },
+          {
+            "code": "sensitization",
+            "display": "致敏"
+          },
+          {
+            "code": "hemocompatibility",
+            "display": "血液相容性"
+          },
+          {
+            "code": "genotoxicity",
+            "display": "遗传毒性"
+          },
+          {
+            "code": "extractables",
+            "display": "可沥滤物"
+          },
+          {
+            "code": "software lifecycle",
+            "display": "软件生命周期"
+          },
+          {
+            "code": "use error",
+            "display": "使用错误"
+          },
+          {
+            "code": "formative / summative evaluation",
+            "display": "形成性/总结性评估"
+          },
+          {
+            "code": "SOUP",
+            "display": "第三方软件"
+          },
+          {
+            "code": "SBOM",
+            "display": "软件物料清单"
+          },
+          {
+            "code": "cybersecurity",
+            "display": "网络安全"
+          },
+          {
+            "code": "post-market clinical follow-up (PMCF)",
+            "display": "上市后临床跟踪"
+          },
+          {
+            "code": "trend report",
+            "display": "趋势报告"
+          },
+          {
+            "code": "operation license / filing",
+            "display": "经营许可 / 备案"
+          },
+          {
+            "code": "centralized procurement",
+            "display": "集采"
+          },
+          {
+            "code": "change registration",
+            "display": "变更注册"
+          },
+          {
+            "code": "renewal of registration",
+            "display": "延续注册"
+          }
+        ]
+      }
+    ]
+  }
+}
