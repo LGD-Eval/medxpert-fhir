@@ -1,0 +1,1498 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "medxpert-en-zh",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/ConceptMap/medxpert-en-zh",
+  "version": "1.0.0-draft",
+  "name": "MedXpertENtoZH",
+  "title": "MedXpert 医械术语英中映射",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "Maps 164 English medical-device regulatory terms to their canonical Chinese renderings.",
+  "sourceScopeCanonical": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-en",
+  "targetScopeCanonical": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-zh",
+  "group": [
+    {
+      "source": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-en",
+      "target": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-zh",
+      "element": [
+        {
+          "code": "ISO 13485",
+          "target": [
+            {
+              "code": "质量管理体系标准",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ISO 14971",
+          "target": [
+            {
+              "code": "风险管理标准",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ISO 10993 / GB/T 16886",
+          "target": [
+            {
+              "code": "生物相容性标准",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "IEC 62304",
+          "target": [
+            {
+              "code": "软件生命周期",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "IEC 62366",
+          "target": [
+            {
+              "code": "可用性工程",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "IEC 60601",
+          "target": [
+            {
+              "code": "电气安全",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ISO 11607",
+          "target": [
+            {
+              "code": "无菌屏障",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "510(k) / Premarket Notification",
+          "target": [
+            {
+              "code": "美国上市前通知",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "PMA (Premarket Approval)",
+          "target": [
+            {
+              "code": "美国上市前批准",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "De Novo",
+          "target": [
+            {
+              "code": "美国新型分类",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "EU MDR (2017/745)",
+          "target": [
+            {
+              "code": "欧盟医疗器械法规",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "EU IVDR (2017/746)",
+          "target": [
+            {
+              "code": "欧盟体外诊断法规",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "EUDAMED",
+          "target": [
+            {
+              "code": "欧盟医疗器械数据库",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Notified Body",
+          "target": [
+            {
+              "code": "欧盟公告机构",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "GUDID",
+          "target": [
+            {
+              "code": "美国全球唯一标识数据库",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UDI (Unique Device Identification)",
+          "target": [
+            {
+              "code": "医疗器械唯一标识",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "STED (Summary Technical Documentation)",
+          "target": [
+            {
+              "code": "技术文档摘要",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "eSTAR / eRPS",
+          "target": [
+            {
+              "code": "电子注册提交",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MAH (Marketing Authorization Holder)",
+          "target": [
+            {
+              "code": "注册人制度/委托生产",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "intended use",
+          "target": [
+            {
+              "code": "预期用途",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "indications for use",
+          "target": [
+            {
+              "code": "适用症/适用范围",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "contraindications",
+          "target": [
+            {
+              "code": "禁忌症",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "warnings",
+          "target": [
+            {
+              "code": "警告",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "precautions",
+          "target": [
+            {
+              "code": "注意事项",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "adverse event",
+          "target": [
+            {
+              "code": "不良事件",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "serious adverse event",
+          "target": [
+            {
+              "code": "严重不良事件",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "post-market surveillance (PMS)",
+          "target": [
+            {
+              "code": "上市后监督",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "field safety corrective action (FSCA)",
+          "target": [
+            {
+              "code": "现场安全纠正措施",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "recall",
+          "target": [
+            {
+              "code": "召回",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "clinical evaluation",
+          "target": [
+            {
+              "code": "临床评价",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "clinical investigation",
+          "target": [
+            {
+              "code": "临床调查/临床试验",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "biocompatibility",
+          "target": [
+            {
+              "code": "生物相容性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "chemical characterization",
+          "target": [
+            {
+              "code": "化学表征",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "sterility",
+          "target": [
+            {
+              "code": "无菌",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "sterilization",
+          "target": [
+            {
+              "code": "灭菌",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "shelf life",
+          "target": [
+            {
+              "code": "货架寿命/有效期",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "packaging integrity",
+          "target": [
+            {
+              "code": "包装完整性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "single use / disposable",
+          "target": [
+            {
+              "code": "一次性使用",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "reusable",
+          "target": [
+            {
+              "code": "可重复使用",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "reprocessing",
+          "target": [
+            {
+              "code": "再处理",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "clean / sterile",
+          "target": [
+            {
+              "code": "清洁/无菌",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "labeling",
+          "target": [
+            {
+              "code": "标签（广义，含说明书）",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "label",
+          "target": [
+            {
+              "code": "标签（狭义）",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "instructions for use (IFU)",
+          "target": [
+            {
+              "code": "使用说明书",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "user manual",
+          "target": [
+            {
+              "code": "用户手册",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "risk management",
+          "target": [
+            {
+              "code": "风险管理",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "risk analysis",
+          "target": [
+            {
+              "code": "风险分析",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "risk evaluation",
+          "target": [
+            {
+              "code": "风险评价",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "risk control",
+          "target": [
+            {
+              "code": "风险控制",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "residual risk",
+          "target": [
+            {
+              "code": "剩余风险",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "hazard",
+          "target": [
+            {
+              "code": "危害（源）",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "harm",
+          "target": [
+            {
+              "code": "伤害",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "design input / output",
+          "target": [
+            {
+              "code": "设计输入/输出",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "design verification",
+          "target": [
+            {
+              "code": "设计验证",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "design validation",
+          "target": [
+            {
+              "code": "设计确认",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "design transfer",
+          "target": [
+            {
+              "code": "设计转移",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "design change",
+          "target": [
+            {
+              "code": "设计变更",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "corrective action",
+          "target": [
+            {
+              "code": "纠正措施",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "preventive action",
+          "target": [
+            {
+              "code": "预防措施",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "nonconformity",
+          "target": [
+            {
+              "code": "不合格",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "process validation",
+          "target": [
+            {
+              "code": "过程确认",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "installation qualification (IQ)",
+          "target": [
+            {
+              "code": "安装确认",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "operational qualification (OQ)",
+          "target": [
+            {
+              "code": "运行确认",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "performance qualification (PQ)",
+          "target": [
+            {
+              "code": "性能确认",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "validation",
+          "target": [
+            {
+              "code": "确认/验证",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "regulatory affairs (RA)",
+          "target": [
+            {
+              "code": "法规事务",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "registration",
+          "target": [
+            {
+              "code": "注册",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "marketing authorization",
+          "target": [
+            {
+              "code": "上市许可",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "conformity assessment",
+          "target": [
+            {
+              "code": "符合性评定",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "declaration of conformity",
+          "target": [
+            {
+              "code": "符合性声明",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "authorized representative",
+          "target": [
+            {
+              "code": "授权代表/欧盟代表",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "importer",
+          "target": [
+            {
+              "code": "进口商",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "distributor",
+          "target": [
+            {
+              "code": "经销商/分销商",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "manufacturer",
+          "target": [
+            {
+              "code": "制造商",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "quality management system (QMS)",
+          "target": [
+            {
+              "code": "质量管理体系",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "quality manual",
+          "target": [
+            {
+              "code": "质量手册",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "standard operating procedure (SOP)",
+          "target": [
+            {
+              "code": "标准操作规程",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "lot number / batch number",
+          "target": [
+            {
+              "code": "批号",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "serial number",
+          "target": [
+            {
+              "code": "序列号",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "manufacturing date",
+          "target": [
+            {
+              "code": "生产日期",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "expiry date / expiration date",
+          "target": [
+            {
+              "code": "失效日期/有效期至",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "storage conditions",
+          "target": [
+            {
+              "code": "储存条件",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "temperature range",
+          "target": [
+            {
+              "code": "温度范围",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "relative humidity",
+          "target": [
+            {
+              "code": "相对湿度",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ingress protection (IP)",
+          "target": [
+            {
+              "code": "防护等级（IP 等级）",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "electromagnetic compatibility (EMC)",
+          "target": [
+            {
+              "code": "电磁兼容性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "software as a medical device (SaMD)",
+          "target": [
+            {
+              "code": "医疗器械软件（独立软件）",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "usability engineering",
+          "target": [
+            {
+              "code": "可用性工程",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "human factors",
+          "target": [
+            {
+              "code": "人因工程",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "device master record (DMR)",
+          "target": [
+            {
+              "code": "器械主记录",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "device history record (DHR)",
+          "target": [
+            {
+              "code": "器械历史记录",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "complaint handling",
+          "target": [
+            {
+              "code": "投诉处理",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "vigilance",
+          "target": [
+            {
+              "code": "警戒（欧盟术语）",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "incident",
+          "target": [
+            {
+              "code": "事件",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "near miss",
+          "target": [
+            {
+              "code": "险肇事件",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "tender",
+          "target": [
+            {
+              "code": "招标",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CE marking",
+          "target": [
+            {
+              "code": "CE 标志",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "declaration of conformity (DoC)",
+          "target": [
+            {
+              "code": "符合性声明",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "technical file / technical documentation",
+          "target": [
+            {
+              "code": "技术文件/技术文档",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "essential requirements",
+          "target": [
+            {
+              "code": "基本要求（MDR 术语）",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "general safety and performance requirements (GSPR)",
+          "target": [
+            {
+              "code": "通用安全与性能要求",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "classification",
+          "target": [
+            {
+              "code": "分类",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "product code",
+          "target": [
+            {
+              "code": "产品代码",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "regulatory pathway",
+          "target": [
+            {
+              "code": "注册路径",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "breakthrough device",
+          "target": [
+            {
+              "code": "突破性器械",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "expedited review",
+          "target": [
+            {
+              "code": "优先审评",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "innovative medical device",
+          "target": [
+            {
+              "code": "创新医疗器械",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "same-type comparison",
+          "target": [
+            {
+              "code": "同品种比对",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "exemption from clinical trials",
+          "target": [
+            {
+              "code": "豁免临床",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "clinical trial exemption",
+          "target": [
+            {
+              "code": "临床豁免",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "marketing authorization holder (MAH)",
+          "target": [
+            {
+              "code": "注册人",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "entrusted production",
+          "target": [
+            {
+              "code": "委托生产",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "quality agreement",
+          "target": [
+            {
+              "code": "质量协议",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "supplier",
+          "target": [
+            {
+              "code": "供应商",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "material certificate",
+          "target": [
+            {
+              "code": "材质证明",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "certificate of conformance",
+          "target": [
+            {
+              "code": "合格证书",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "free sale certificate / export certificate",
+          "target": [
+            {
+              "code": "出口销售证明",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "certificate of free sale (CFS)",
+          "target": [
+            {
+              "code": "自由销售证书",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "notified body opinion",
+          "target": [
+            {
+              "code": "公告机构意见",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "annual report",
+          "target": [
+            {
+              "code": "年度报告",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "periodic safety update report (PSUR)",
+          "target": [
+            {
+              "code": "定期安全更新报告",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "summary of safety and clinical performance (SSCP)",
+          "target": [
+            {
+              "code": "安全与临床性能摘要",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "hazardous situation",
+          "target": [
+            {
+              "code": "危险情况",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "foreseeable misuse",
+          "target": [
+            {
+              "code": "可合理预见的误用",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "risk analysis / evaluation / control",
+          "target": [
+            {
+              "code": "风险分析 / 评价 / 控制",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "risk-benefit analysis",
+          "target": [
+            {
+              "code": "获益-风险分析",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "cleanroom",
+          "target": [
+            {
+              "code": "洁净室",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "sterile barrier",
+          "target": [
+            {
+              "code": "无菌屏障",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "bioburden",
+          "target": [
+            {
+              "code": "生物负载",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "EO sterilization",
+          "target": [
+            {
+              "code": "环氧乙烷灭菌",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "irradiation sterilization",
+          "target": [
+            {
+              "code": "辐照灭菌",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "moist heat sterilization",
+          "target": [
+            {
+              "code": "湿热灭菌",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "sterility assurance level (SAL)",
+          "target": [
+            {
+              "code": "无菌保证水平",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "parametric release",
+          "target": [
+            {
+              "code": "参数发布",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "overkill method",
+          "target": [
+            {
+              "code": "过度杀灭法",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "biological indicator (BI)",
+          "target": [
+            {
+              "code": "生物指示剂",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "biological evaluation",
+          "target": [
+            {
+              "code": "生物学评价",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "cytotoxicity",
+          "target": [
+            {
+              "code": "细胞毒性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "sensitization",
+          "target": [
+            {
+              "code": "致敏",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "hemocompatibility",
+          "target": [
+            {
+              "code": "血液相容性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "genotoxicity",
+          "target": [
+            {
+              "code": "遗传毒性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "extractables",
+          "target": [
+            {
+              "code": "可沥滤物",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "software lifecycle",
+          "target": [
+            {
+              "code": "软件生命周期",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "use error",
+          "target": [
+            {
+              "code": "使用错误",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "formative / summative evaluation",
+          "target": [
+            {
+              "code": "形成性/总结性评估",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SOUP",
+          "target": [
+            {
+              "code": "第三方软件",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SBOM",
+          "target": [
+            {
+              "code": "软件物料清单",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "cybersecurity",
+          "target": [
+            {
+              "code": "网络安全",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "post-market clinical follow-up (PMCF)",
+          "target": [
+            {
+              "code": "上市后临床跟踪",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "trend report",
+          "target": [
+            {
+              "code": "趋势报告",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "operation license / filing",
+          "target": [
+            {
+              "code": "经营许可 / 备案",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "centralized procurement",
+          "target": [
+            {
+              "code": "集采",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "change registration",
+          "target": [
+            {
+              "code": "变更注册",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "renewal of registration",
+          "target": [
+            {
+              "code": "延续注册",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "DANGER",
+          "target": [
+            {
+              "code": "危险",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "WARNING",
+          "target": [
+            {
+              "code": "警告",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CAUTION",
+          "target": [
+            {
+              "code": "注意/小心",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "NOTE",
+          "target": [
+            {
+              "code": "提示/说明",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CONTRAINDICATION",
+          "target": [
+            {
+              "code": "禁忌",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "shall",
+          "target": [
+            {
+              "code": "应",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "should",
+          "target": [
+            {
+              "code": "宜/应当",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "may",
+          "target": [
+            {
+              "code": "可以",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "must",
+          "target": [
+            {
+              "code": "必须",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "shall not / must not",
+          "target": [
+            {
+              "code": "不得",
+              "relationship": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
