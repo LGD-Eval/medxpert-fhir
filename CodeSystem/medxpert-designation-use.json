@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "medxpert-designation-use",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-designation-use",
+  "version": "1.0.0-draft",
+  "name": "MedXpertDesignationUse",
+  "title": "MedXpert 自定义 designation use 编码",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "Custom designation.use codes used by MedXpert resources: note / good-rendering / reason / designation.",
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "note",
+      "display": "注释"
+    },
+    {
+      "code": "good-rendering",
+      "display": "规范译法"
+    },
+    {
+      "code": "reason",
+      "display": "误译原因"
+    },
+    {
+      "code": "designation",
+      "display": "来源英文术语"
+    }
+  ]
+}
