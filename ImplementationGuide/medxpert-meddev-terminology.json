@@ -1,0 +1,155 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "medxpert-meddev-terminology",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/ImplementationGuide/medxpert-meddev-terminology",
+  "version": "1.0.0-draft",
+  "name": "MedXpertMedicalDeviceTerminologyIG",
+  "title": "MedXpert 医械法规术语 IG（draft）",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "MedXpert medical-device regulatory bilingual terminology: 164 EN terms, 159 canonical ZH renderings, 36 mistranslation rules, exposed as FHIR R5 CodeSystems, ValueSets and ConceptMaps. Draft package for the FHIR IG Registry / HL7 China FHIR IG contribution.",
+  "copyright": "MIT License; source https://github.com/stevenzhao07/medxpert-skills",
+  "fhirVersion": [
+    "5.0.0"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "CodeSystem/medxpert-designation-use"
+        },
+        "name": "MedXpert 自定义 designation use 编码",
+        "description": "Custom designation.use codes used by MedXpert resources: note / good-rendering / reason / designation.",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/medxpert-meddev-en"
+        },
+        "name": "MedXpert 医械法规术语库（英文术语）",
+        "description": "Medical device regulatory bilingual terminology (EN codes). Codes are English terms; zh display/designation carry the canonical Chinese rendering. Kinds: keep-as-is / term / warning-level / modal-verb",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/medxpert-meddev-mistranslations"
+        },
+        "name": "MedXpert 医械常见误译对照",
+        "description": "Common mistranslations in medical device regulatory Chinese documents. Codes are the WRONG renderings; designation use 'good-rendering' gives the canonical one. Severity: error | info.",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/medxpert-meddev-zh"
+        },
+        "name": "MedXpert 医械法规术语库（中文规范译法）",
+        "description": "Canonical Chinese renderings of medical device regulatory terms (deduplicated; 1:1 and 1:N EN->ZH relations are expressed in ConceptMap medxpert-en-zh).",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/medxpert-en-zh"
+        },
+        "name": "MedXpert 医械术语英中映射",
+        "description": "Maps 164 English medical-device regulatory terms to their canonical Chinese renderings.",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/medxpert-zh-mistranslation"
+        },
+        "name": "MedXpert 医械误译纠正映射",
+        "description": "Maps 36 common WRONG Chinese renderings (source) to canonical renderings (target) with severity error|info.",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vs-meddev-core-terms"
+        },
+        "name": "医械法规核心术语",
+        "description": "MedXpert terminology subset: kind = term (135 concepts).",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vs-meddev-keep-as-is"
+        },
+        "name": "医械标准/机构名不译清单",
+        "description": "MedXpert terminology subset: kind = keep-as-is (19 concepts).",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vs-meddev-modal-verbs"
+        },
+        "name": "规范情态动词",
+        "description": "MedXpert terminology subset: kind = modal-verb (5 concepts).",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vs-meddev-warning-level"
+        },
+        "name": "警示强度用语",
+        "description": "MedXpert terminology subset: kind = warning-level (5 concepts).",
+        "isExample": true
+      }
+    ]
+  },
+  "manifest": {
+    "rendering": "https://stevenzhao07.github.io/medxpert-fhir/",
+    "resource": [
+      {
+        "reference": {
+          "reference": "CodeSystem/medxpert-designation-use"
+        }
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/medxpert-meddev-en"
+        }
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/medxpert-meddev-mistranslations"
+        }
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/medxpert-meddev-zh"
+        }
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/medxpert-en-zh"
+        }
+      },
+      {
+        "reference": {
+          "reference": "ConceptMap/medxpert-zh-mistranslation"
+        }
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vs-meddev-core-terms"
+        }
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vs-meddev-keep-as-is"
+        }
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vs-meddev-modal-verbs"
+        }
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/vs-meddev-warning-level"
+        }
+      }
+    ]
+  }
+}
