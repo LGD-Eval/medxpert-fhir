@@ -1,0 +1,346 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "medxpert-zh-mistranslation",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/ConceptMap/medxpert-zh-mistranslation",
+  "version": "1.0.0-draft",
+  "name": "MedXpertMistranslationFix",
+  "title": "MedXpert 医械误译纠正映射",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "Maps 36 common WRONG Chinese renderings (source) to canonical renderings (target) with severity error|info.",
+  "sourceScopeCanonical": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-mistranslations",
+  "targetScopeCanonical": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-zh",
+  "group": [
+    {
+      "source": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-mistranslations",
+      "target": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-zh",
+      "element": [
+        {
+          "code": "临床实验",
+          "target": [
+            {
+              "code": "临床试验",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "过程验证",
+          "target": [
+            {
+              "code": "过程确认",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "工艺验证",
+          "target": [
+            {
+              "code": "工艺确认",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "生物兼容性",
+          "target": [
+            {
+              "code": "生物相容性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "血液兼容性",
+          "target": [
+            {
+              "code": "血液相容性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "生物负荷",
+          "target": [
+            {
+              "code": "生物负载",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "细胞毒",
+          "target": [
+            {
+              "code": "细胞毒性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "包装完好性",
+          "target": [
+            {
+              "code": "包装完整性",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "再加工",
+          "target": [
+            {
+              "code": "再处理",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "翻新",
+          "target": [
+            {
+              "code": "再处理",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "风险效益分析",
+          "target": [
+            {
+              "code": "获益-风险分析",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "风险利益分析",
+          "target": [
+            {
+              "code": "获益-风险分析",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "不良事故",
+          "target": [
+            {
+              "code": "不良事件",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "产品回收",
+          "target": [
+            {
+              "code": "产品召回",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "上市后监管",
+          "target": [
+            {
+              "code": "上市后监督",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "现场安全修正措施",
+          "target": [
+            {
+              "code": "现场安全纠正措施",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "现场安全纠正行动",
+          "target": [
+            {
+              "code": "现场安全纠正措施",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "授权代理",
+          "target": [
+            {
+              "code": "授权代表",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "符合性评估",
+          "target": [
+            {
+              "code": "符合性评定",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "技术档案",
+          "target": [
+            {
+              "code": "技术文件",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "生产商",
+          "target": [
+            {
+              "code": "制造商",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "经销人",
+          "target": [
+            {
+              "code": "经销商",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "使用手册",
+          "target": [
+            {
+              "code": "使用说明书",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "器械历史档案",
+          "target": [
+            {
+              "code": "器械历史记录",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "保质期",
+          "target": [
+            {
+              "code": "有效期",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "可预见误用",
+          "target": [
+            {
+              "code": "可合理预见的误用",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "一次性",
+          "target": [
+            {
+              "code": "一次性使用",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CE 认证",
+          "target": [
+            {
+              "code": "CE 标志",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "FDA 510K",
+          "target": [
+            {
+              "code": "510(k)",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ISO13485",
+          "target": [
+            {
+              "code": "ISO 13485",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "GB9706.1",
+          "target": [
+            {
+              "code": "GB 9706.1",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "国际标准化组织13485",
+          "target": [
+            {
+              "code": "ISO 13485",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "欧盟医疗器械指令",
+          "target": [
+            {
+              "code": "MDR (EU) 2017/745",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "欧洲联盟医疗器械法规",
+          "target": [
+            {
+              "code": "MDR (EU) 2017/745",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "必须",
+          "target": [
+            {
+              "code": "应",
+              "relationship": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "基本要求",
+          "target": [
+            {
+              "code": "通用安全与性能要求",
+              "relationship": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
