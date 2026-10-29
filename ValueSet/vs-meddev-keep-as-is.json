@@ -1,0 +1,97 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-meddev-keep-as-is",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/ValueSet/vs-meddev-keep-as-is",
+  "version": "1.0.0-draft",
+  "name": "MedXpertKeepAsIs",
+  "title": "医械标准/机构名不译清单",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "MedXpert terminology subset: kind = keep-as-is (19 concepts).",
+  "compose": {
+    "include": [
+      {
+        "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-en",
+        "concept": [
+          {
+            "code": "ISO 13485",
+            "display": "质量管理体系标准"
+          },
+          {
+            "code": "ISO 14971",
+            "display": "风险管理标准"
+          },
+          {
+            "code": "ISO 10993 / GB/T 16886",
+            "display": "生物相容性标准"
+          },
+          {
+            "code": "IEC 62304",
+            "display": "软件生命周期"
+          },
+          {
+            "code": "IEC 62366",
+            "display": "可用性工程"
+          },
+          {
+            "code": "IEC 60601",
+            "display": "电气安全"
+          },
+          {
+            "code": "ISO 11607",
+            "display": "无菌屏障"
+          },
+          {
+            "code": "510(k) / Premarket Notification",
+            "display": "美国上市前通知"
+          },
+          {
+            "code": "PMA (Premarket Approval)",
+            "display": "美国上市前批准"
+          },
+          {
+            "code": "De Novo",
+            "display": "美国新型分类"
+          },
+          {
+            "code": "EU MDR (2017/745)",
+            "display": "欧盟医疗器械法规"
+          },
+          {
+            "code": "EU IVDR (2017/746)",
+            "display": "欧盟体外诊断法规"
+          },
+          {
+            "code": "EUDAMED",
+            "display": "欧盟医疗器械数据库"
+          },
+          {
+            "code": "Notified Body",
+            "display": "欧盟公告机构"
+          },
+          {
+            "code": "GUDID",
+            "display": "美国全球唯一标识数据库"
+          },
+          {
+            "code": "UDI (Unique Device Identification)",
+            "display": "医疗器械唯一标识"
+          },
+          {
+            "code": "STED (Summary Technical Documentation)",
+            "display": "技术文档摘要"
+          },
+          {
+            "code": "eSTAR / eRPS",
+            "display": "电子注册提交"
+          },
+          {
+            "code": "MAH (Marketing Authorization Holder)",
+            "display": "注册人制度/委托生产"
+          }
+        ]
+      }
+    ]
+  }
+}
