@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-meddev-warning-level",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/ValueSet/vs-meddev-warning-level",
+  "version": "1.0.0-draft",
+  "name": "MedXpertWarningLevel",
+  "title": "警示强度用语",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "MedXpert terminology subset: kind = warning-level (5 concepts).",
+  "compose": {
+    "include": [
+      {
+        "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-en",
+        "concept": [
+          {
+            "code": "DANGER",
+            "display": "危险"
+          },
+          {
+            "code": "WARNING",
+            "display": "警告"
+          },
+          {
+            "code": "CAUTION",
+            "display": "注意/小心"
+          },
+          {
+            "code": "NOTE",
+            "display": "提示/说明"
+          },
+          {
+            "code": "CONTRAINDICATION",
+            "display": "禁忌"
+          }
+        ]
+      }
+    ]
+  }
+}
