@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-meddev-modal-verbs",
+  "url": "https://stevenzhao07.github.io/medxpert-fhir/ValueSet/vs-meddev-modal-verbs",
+  "version": "1.0.0-draft",
+  "name": "MedXpertModalVerb",
+  "title": "规范情态动词",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MedXpert (stevenzhao07)",
+  "description": "MedXpert terminology subset: kind = modal-verb (5 concepts).",
+  "compose": {
+    "include": [
+      {
+        "system": "https://stevenzhao07.github.io/medxpert-fhir/CodeSystem/medxpert-meddev-en",
+        "concept": [
+          {
+            "code": "shall",
+            "display": "应"
+          },
+          {
+            "code": "should",
+            "display": "宜/应当"
+          },
+          {
+            "code": "may",
+            "display": "可以"
+          },
+          {
+            "code": "must",
+            "display": "必须"
+          },
+          {
+            "code": "shall not / must not",
+            "display": "不得"
+          }
+        ]
+      }
+    ]
+  }
+}
