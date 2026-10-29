@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MedXpert FHIR Terminology Package · 医械法规双语术语 FHIR R5 资源包</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif; margin: 0; background: #f7fafc; color: #1a2b3c; line-height: 1.6; }
+  header { background: #0b3d62; color: #fff; padding: 28px 20px 22px; }
+  header .inner { max-width: 900px; margin: 0 auto; }
+  header h1 { margin: 0 0 6px; font-size: 22px; }
+  header p { margin: 4px 0; font-size: 14px; opacity: .9; }
+  main { max-width: 900px; margin: 24px auto 40px; padding: 0 20px; }
+  .stats { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+  .stat { flex: 1 1 130px; background: #fff; border: 1px solid #dbe6ef; border-radius: 8px; padding: 12px 14px; }
+  .stat b { font-size: 20px; color: #0b3d62; display: block; }
+  .stat span { font-size: 12px; color: #5a6f82; }
+  section { background: #fff; border: 1px solid #dbe6ef; border-radius: 8px; padding: 16px 18px; margin-bottom: 16px; }
+  h2 { font-size: 16px; margin: 0 0 10px; color: #0b3d62; }
+  ul { margin: 6px 0 0; padding-left: 20px; }
+  li { margin: 3px 0; font-size: 13.5px; }
+  a { color: #0b6bb3; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .tag { display: inline-block; background: #e3f0fa; color: #0b3d62; border-radius: 10px; padding: 1px 8px; font-size: 12px; margin: 0 4px 4px 0; }
+  footer { max-width: 900px; margin: 0 auto 30px; padding: 0 20px; font-size: 12.5px; color: #5a6f82; }
+  code { background: #eef3f7; padding: 1px 5px; border-radius: 4px; font-size: 12.5px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <h1>MedXpert FHIR Terminology Package</h1>
+    <p>医械法规中英双语术语 · FHIR R5 资源包（draft）— Medical-device regulatory bilingual terminology, FHIR R5 package (draft)</p>
+    <p>命名空间 / Namespace: <b>https://stevenzhao07.github.io/medxpert-fhir/</b></p>
+  </div>
+</header>
+<main>
+  <div class="stats">
+    <div class="stat"><b>164</b><span>EN 术语 concepts</span></div>
+    <div class="stat"><b>159</b><span>ZH 规范译名 concepts</span></div>
+    <div class="stat"><b>36</b><span>误译规则 mistranslation rules</span></div>
+    <div class="stat"><b>4+4+2</b><span>CodeSystem · ValueSet · ConceptMap</span></div>
+    <div class="stat"><b>11</b><span>FHIR R5 资源，schema 0 错误</span></div>
+  </div>
+
+  <section>
+    <h2>资源清单 / Resources</h2>
+    <ul>
+      <li><b>CodeSystem</b>
+        <ul>
+          <li><a href="CodeSystem/medxpert-meddev-en.json">medxpert-meddev-en</a> — 164 条英文医械法规术语（EN source concepts）</li>
+          <li><a href="CodeSystem/medxpert-meddev-zh.json">medxpert-meddev-zh</a> — 159 条中文规范译名（ZH canonical renderings）</li>
+          <li><a href="CodeSystem/medxpert-meddev-mistranslations.json">medxpert-meddev-mistranslations</a> — 36 条误译纠正规则</li>
+          <li><a href="CodeSystem/medxpert-designation-use.json">medxpert-designation-use</a> — designation.use 枚举（keep-as-is / term / warning-level / modal-verb）</li>
+        </ul>
+      </li>
+      <li><b>ValueSet</b>
+        <ul>
+          <li><a href="ValueSet/vs-meddev-core-terms.json">vs-meddev-core-terms</a>（135）· <a href="ValueSet/vs-meddev-keep-as-is.json">vs-meddev-keep-as-is</a>（19）· <a href="ValueSet/vs-meddev-warning-level.json">vs-meddev-warning-level</a>（5）· <a href="ValueSet/vs-meddev-modal-verbs.json">vs-meddev-modal-verbs</a>（5）</li>
+        </ul>
+      </li>
+      <li><b>ConceptMap</b>
+        <ul>
+          <li><a href="ConceptMap/medxpert-en-zh.json">medxpert-en-zh</a> — EN→ZH 映射（164 条）</li>
+          <li><a href="ConceptMap/medxpert-zh-mistranslation.json">medxpert-zh-mistranslation</a> — ZH→误译纠正（36 条）</li>
+        </ul>
+      </li>
+      <li><b>ImplementationGuide</b>
+        <ul>
+          <li><a href="ImplementationGuide/medxpert-meddev-terminology.json">medxpert-meddev-terminology</a> — IG 壳（fhirVersion 5.0.0）</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>提交说明 / Contribution note</h2>
+    <p>面向 HL7/FHIR 生态的贡献包说明：原创性声明、命名空间决策、校验记录、推荐提交通道（FHIR IG Registry / HL7 中国委员会）。见 <a href="CONTRIBUTION.md">CONTRIBUTION.md</a>。</p>
+  </section>
+
+  <section>
+    <h2>复现 / Reproduction</h2>
+    <p>数据源在 <a href="https://github.com/stevenzhao07/medxpert-skills">stevenzhao07/medxpert-skills</a>（termbase.tsv 164 行 + mistranslations.tsv 36 行）。构建与校验：</p>
+    <p><code>python build_fhir.py &amp;&amp; python generate_ig.py &amp;&amp; python validate_all_schema.py</code></p>
+    <p>校验结果：FHIR R5 官方 JSON Schema 11/11 通过（2026-10-28）。完整官方校验建议在提交前于 <a href="https://validator.fhir.org">validator.fhir.org</a> 复验。</p>
+  </section>
+
+  <section>
+    <h2>状态与门禁 / Status &amp; gates</h2>
+    <p>状态：<span class="tag">draft</span><span class="tag">FHIR R5</span><span class="tag">MIT</span><span class="tag">pre-submission review in progress</span></p>
+    <p>发布前审查：G1 调研合规 / G4 引用核验 / G5 材料质量 全绿；G2 / G6 已随本 Pages 上线进入复验；G3（validator.fhir.org）与 G0（联系邮箱核实）待完成。详见仓库 <a href="https://github.com/stevenzhao07/medxpert-fhir">GitHub 仓库</a>。</p>
+  </section>
+</main>
+<footer>
+  © 2026 MedXpert · MIT License · 源仓库 stevenzhao07/medxpert-skills · 本页为 IG 发布占位（完整 IG HTML 需官方 IG publisher，本机无 Java，见 README 限制说明）
+</footer>
+</body>
+</html>
